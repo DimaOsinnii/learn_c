@@ -1,0 +1,22 @@
+cmake-build-debug
+CMakeLists.txt
+
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+*.launch
+*.sublime-workspace
+.c9/
+.classpath
+.editorconfig
+.project
+.settings/
+/.idea
+.idea
+/.vscode
+.eslintcache
