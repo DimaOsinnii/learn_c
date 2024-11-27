@@ -1,5 +1,8 @@
+#include <stdbool.h>
 #include <stdio.h>
 
+
+#define SIZE  7
 
 int main(void) {
     // printf("Hello, World!\n");
@@ -39,19 +42,25 @@ int main(void) {
     //     if (i % 2) continue;
     //
     //     sum += i;
-    // }
+    //
     //
     // printf("%d\n", 1 % 2);
     //
     // printf("Sum: %d", sum);
 
 
-    printf("Size of Int: %ld\n", sizeof(int));
-    printf("Size of Short: %ld\n", sizeof(short));
-    printf("Size of Long: %ld\n", sizeof(long));
-    printf("Size of Float: %ld\n", sizeof(float));
-    printf("Size of Double: %ld\n", sizeof(double));
-    printf("Size of Long Double: %ld\n", sizeof(long double));
+    // printf("Size of Int: %ld\n", sizeof(int));
+    // printf("Size of Short: %ld\n", sizeof(short));
+    // printf("Size of Long: %ld\n", sizeof(long));
+    // printf("Size of Float: %ld\n", sizeof(float));
+    // printf("Size of Double: %ld\n", sizeof(double));
+    // printf("Size of Long Double: %ld\n", sizeof(long double));
+    //
+
+
+    const bool weekend[SIZE] = {[0] = true, [SIZE - 1] = true};
+
+    printf("%d", weekend[6]);
 
     return 0;
 }
